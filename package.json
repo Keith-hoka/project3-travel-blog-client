@@ -3,8 +3,21 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "start": "react-dotenv && react-scripts start",
+    "build": "react-dotenv && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "VITE_REACT_APP_MAPBOX_ACCESS_TOKEN",
+      "VITE_BASE_URL",
+      "VITE_LOGIN_URL",
+      "VITE_REGISTER_URL",
+      "VITE_LOGOUT_URL",
+      "VITE_USER_URL"
+    ]
   },
   "dependencies": {
     "@mui/icons-material": "^5.2.1",
