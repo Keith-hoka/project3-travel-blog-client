@@ -42,7 +42,7 @@ const Register = () => {
         <input onChange={e => setEmail(e.target.value)} value={email} type="email" placeholder="Enter your Email" required />
         <input onChange={e => setPassword(e.target.value)} value={password} type="password" placeholder="Enter your Password" required />
         <button onClick={handleRegister} className="register-submit">Register</button>
-        {error !== email ? <p className="error">{error}</p> : null}
+        {error !== email ? <p className="register-ror">{error}</p> : null}
         <Link to="/login">
           <p>Existing User?</p>
         </Link>

@@ -57,6 +57,10 @@
   border-radius: 10px;
 }
 
+.register-error {
+  color: red;
+}
+
 @media only screen and (max-width: 1000px) {
   .register img{
     width: 150px;
