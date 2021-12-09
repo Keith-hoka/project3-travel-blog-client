@@ -128,7 +128,8 @@ const Mapbox = () => {
             >
               <div className="mapbox-popup">
                 <h3>{log.title}</h3>
-                <p>Visitor: {log.comments}, Rating: {log.rating}</p>
+                <p>Visitor: {log.comments}</p>
+                <p>Rating: {log.rating}</p>
                   {log.image ? <img src={log.image} alt={log.title} /> : null}
                 <small>Visited on: {new Date(log.visitDate).toLocaleString()}</small>
                 <h3>Description</h3>
