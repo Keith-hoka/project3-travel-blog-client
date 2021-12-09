@@ -3,6 +3,7 @@ import { useHistory, Link } from "react-router-dom";
 
 import "./Register.css";
 import { api } from "../helpers/helpers";
+import imgUrl from '/images/logo.gif';
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -34,7 +35,7 @@ const Register = () => {
   return (
     <div className="register">
       <div className="register-title">
-        <img src="./images/logo.gif" alt="logo" />
+        <img src={imgUrl} alt="logo" />
         <h1 className="register-method">Welcome to Keith's Travel Experience Sharing Platform!</h1>
       </div>
       <div className="register-wrapper">

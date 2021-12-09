@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import LogoutIcon from '@mui/icons-material/Logout';
 
 import "./Navbar.css";
+import imgUrl from '/images/travel.gif';
 
 const Navbar = ({ user }) => {
   const history = useHistory();
@@ -16,7 +17,7 @@ const Navbar = ({ user }) => {
   return (
     <div className="navbar">
       <div className="navbar-listItem">
-        <img src="./images/travel.gif" alt="logo" />
+        <img src={imgUrl} alt="logo" />
       </div>
       <p>Double click on map to create your travel blog :)</p>
       <div className="navbar-listItem">
