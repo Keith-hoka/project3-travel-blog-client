@@ -1,0 +1,29 @@
+.mapbox-marker {
+  stroke: blue;
+  transform: translate(-50%, -100%);
+}
+
+.mapbox-addMarker {
+  stroke: red;
+  transform: translate(-50%, -100%);
+}
+
+.mapbox-popup {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapbox-popup img {
+  width: 200px;
+  height: auto;
+}
+
+.maxbox-nightModeBtn {
+  margin: 10px !important;
+  color: white !important;
+}
+
+.maxbox-dayModeBtn {
+  margin: 10px !important;
+}

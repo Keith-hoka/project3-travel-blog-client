@@ -1,0 +1,29 @@
+.navbar {
+  height: 50px;
+  background-color: rgba(102, 16, 83);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar img {
+  width: 50px;
+}
+
+.navbar-btn {
+  color: white !important;
+}
+
+.navbar-listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-welcome {
+  margin-right: 50px;
+}
