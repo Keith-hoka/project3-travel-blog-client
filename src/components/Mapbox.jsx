@@ -67,7 +67,8 @@ const Mapbox = () => {
   return (
     <ReactMapGL
       {...viewport}
-      mapboxApiAccessToken={import.meta.env.VITE_REACT_APP_MAPBOX_ACCESS_TOKEN}
+      // mapboxApiAccessToken={import.meta.env.VITE_REACT_APP_MAPBOX_ACCESS_TOKEN}
+      mapboxApiAccessToken="pk.eyJ1Ijoia2VpdGhob2thIiwiYSI6ImNrd3N1dWZ2MjA2cXoydmtwbXd6Znk2cngifQ.5GB8Hr0f_7w1Gw1mYXQjZA"
       mapStyle={mode}
       onViewportChange={setViewport}
       onDblClick={handleShowAddLogPopup}
