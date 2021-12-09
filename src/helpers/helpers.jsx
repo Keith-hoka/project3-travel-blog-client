@@ -18,7 +18,7 @@ const registerURL = "https://floating-journey-41713.herokuapp.com/register/";
 const logoutURL = "https://floating-journey-41713.herokuapp.com/logout/";
 const getUserURL = "https://floating-journey-41713.herokuapp.com/user/";
 
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 const handleError = (fn) => (...params) =>
   fn(...params).catch((error) => (
