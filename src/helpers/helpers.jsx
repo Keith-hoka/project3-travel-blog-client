@@ -1,10 +1,16 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:1337/logs/" || "https://floating-journey-41713.herokuapp.com/logs";
-const loginURL = "http://localhost:1337/login/" || "https://floating-journey-41713.herokuapp.com/login/";
-const registerURL = "http://localhost:1337/register/" || "https://floating-journey-41713.herokuapp.com/register/";
-const logoutURL = "http://localhost:1337/logout/" || "https://floating-journey-41713.herokuapp.com/logout/";
-const getUserURL = "http://localhost:1337/user/" || "https://floating-journey-41713.herokuapp.com/user/";
+// const baseURL = "http://localhost:1337/logs/";
+// const loginURL = "http://localhost:1337/login/";
+// const registerURL = "http://localhost:1337/register/";
+// const logoutURL = "http://localhost:1337/logout/";
+// const getUserURL = "http://localhost:1337/user/";
+
+const baseURL = process.env.BASE_URL;
+const loginURL = process.env.LOGIN_URL;
+const registerURL = process.env.REGISTER_URL;
+const logoutURL = process.env.LOGOUT_URL;
+const getUserURL = process.env.USER_URL;
 
 axios.defaults.withCredentials = true;
 
