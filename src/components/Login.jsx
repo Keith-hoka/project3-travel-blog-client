@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
+import imgUrl from '/images/logo.gif';
 import "./Login.css";
 import { api } from "../helpers/helpers";
 
@@ -31,7 +32,7 @@ const Login = () => {
   return (
     <div className="login">
       <div className="login-title">
-      <img src="./images/logo.gif" alt="logo" />
+      <img src={imgUrl} alt="logo" />
       <h1 className="login-method">Login to Share Your Travel Experience!</h1>
       </div>
       <div className="login-wrapper">
