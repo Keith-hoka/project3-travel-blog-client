@@ -6,11 +6,11 @@ import axios from "axios";
 // const logoutURL = "http://localhost:1337/logout/";
 // const getUserURL = "http://localhost:1337/user/";
 
-// const baseURL = import.meta.env.BASE_URL;
-// const loginURL = import.meta.env.LOGIN_URL;
-// const registerURL = import.meta.env.REGISTER_URL;
-// const logoutURL = import.meta.env.LOGOUT_URL;
-// const getUserURL = import.meta.env.USER_URL;
+// const baseURL = import.meta.env.VITE_BASE_URL;
+// const loginURL = import.meta.env.VITE_LOGIN_URL;
+// const registerURL = import.meta.env.VITE_REGISTER_URL;
+// const logoutURL = import.meta.env.VITE_LOGOUT_URL;
+// const getUserURL = import.meta.env.VITE_USER_URL;
 
 const baseURL = "https://floating-journey-41713.herokuapp.com/logs/";
 const loginURL = "https://floating-journey-41713.herokuapp.com/login/";
