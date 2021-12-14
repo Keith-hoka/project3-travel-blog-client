@@ -3,6 +3,7 @@
 ### Product
 
 A globe map platform that allows users to sign up and sign in via their email and password to post and share their travel experience.
+Demo: https://travel-blog-ga.netlify.app/
 
 ## Assets Used
 
